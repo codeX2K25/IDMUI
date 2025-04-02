@@ -1,0 +1,53 @@
+/idmui/
+├── app/
+│   ├── __init__.py
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   ├── auth.py
+│   │   ├── service_management.py
+│   │   ├── user_management.py
+│   │   ├── project_management.py
+│   │   ├── endpoint_management.py
+│   │   ├── domain_management.py
+│   │   ├── database_management.py
+│   │   ├── configuration_management.py
+│   │   ├── metrics.py
+│   │   ├── token_management.py
+│   │   └── group_management.py
+│   ├── templates/
+│   │   ├── auth/
+│   │   │   └── login.html
+│   │   ├── services/
+│   │   │   ├── keystone_status.html
+│   │   │   └── service_control.html
+│   │   ├── projects/
+│   │   │   └── list.html
+│   │   ├── endpoints/
+│   │   │   └── list.html
+│   │   ├── domains/
+│   │   │   └── list.html
+│   │   ├── tokens/
+│   │   │   └── list.html
+│   │   ├── groups/
+│   │   │   └── list.html
+│   │   ├── config/
+│   │   │   └── view.html
+│   │   ├── database/
+│   │   │   └── management.html
+│   │   ├── base.html
+│   │   └── navbar.html
+│   ├── models.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── database.py
+│   │   ├── keystone_api.py
+│   │   └── keystone_auth.py
+│   └── static/
+│       ├── css/
+│       │   └── styles.css
+│       └── js/
+│           └── scripts.js
+├── config.py
+├── requirements.txt
+├── run.py
+└── setup_db.sql
