@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
+from app.utils.database import init_db
 from config import Config
 
 db = SQLAlchemy()
